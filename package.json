@@ -1,0 +1,37 @@
+{
+  "name": "lab-minify",
+  "version": "0.1.0",
+  "description": "CLI for minifying image files in place with backups.",
+  "type": "module",
+  "bin": {
+    "lab-minify": "./bin/lab-minify.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "keywords": [
+    "image",
+    "minify",
+    "optimize",
+    "jpeg",
+    "png",
+    "webp",
+    "avif",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "sharp": "^0.34.0"
+  }
+}
