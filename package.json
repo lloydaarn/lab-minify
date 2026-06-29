@@ -4,7 +4,7 @@
   "description": "CLI for minifying image files in place with backups.",
   "type": "module",
   "bin": {
-    "lab-minify": "./bin/lab-minify.js"
+    "lab-minify": "bin/lab-minify.js"
   },
   "files": [
     "bin",
