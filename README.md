@@ -38,12 +38,6 @@ Or run it without a global install:
 npx lab-minify ./img
 ```
 
-For local package development from another project:
-
-```bash
-npm install --save-dev file:D:\lab\dev\lab-minify
-```
-
 ## Usage
 
 ```bash
